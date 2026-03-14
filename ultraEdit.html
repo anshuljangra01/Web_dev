@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UltraEdit Downloads</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #222;
+}
+
+/* Header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-circle {
+  background: #f5c400;
+  color: #000;
+  font-weight: 700;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text small {
+  display: block;
+  font-size: 12px;
+  color: #666;
+}
+
+.nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.download-btn {
+  background: #f5c400;
+  border: none;
+  padding: 10px 18px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lang {
+  font-size: 14px;
+}
+
+/* Main Grid */
+.container {
+  padding: 40px 32px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+}
+
+.card {
+  background: #f6f6f4;
+  border-radius: 14px;
+  padding: 28px 24px;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 18px;
+}
+
+.card button {
+  background: #f5c400;
+  border: none;
+  padding: 10px 18px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.hash-label {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.hash {
+  font-size: 11px;
+  word-break: break-all;
+  color: #444;
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <span class="logo-circle">UE</span>
+      <span class="logo-text">UltraEdit <small>by Embarcadero</small></span>
+    </div>
+
+    <nav class="nav">
+      <a href="#">Products</a>
+      <a href="#">Buy</a>
+      <a href="#">Support</a>
+      <a href="#">Learn</a>
+      <a href="#">Company</a>
+    </nav>
+
+    <div class="header-right">
+      <button class="download-btn">Download</button>
+      <span class="lang">🌐 English</span>
+    </div>
+  </header>
+
+   <!-- Download Grid -->
+  <main class="container">
+    <div class="grid">
+
+      <div class="card">
+        <h2>English</h2>
+        <p class="subtitle">Includes all languages</p>
+        <button>Download 64-bit</button>
+        <p class="hash-label">SHA256</p>
+        <p class="hash">A738322123B719614F88DA3FDD3F04859BA5BB1A93DD078AF61341B16D6D8CB</p>
+      </div>
+
+      <div class="card">
+        <h2>Deutsch</h2> 
+        <p class="subtitle">German</p>
+        <button>Download 64-bit</button>
+        <p class="hash-label">SHA256</p>
+        <p class="hash">BBFD06E9E2456E8EE646D83E6FE9EBDEF5095B27F0D63A92954E5526C87B31A</p>
+      </div>
+
+      <div class="card">
+        <h2>Italiano</h2>
+        <p class="subtitle">Italian</p>
+        <button>Download 64-bit</button>
+        <p class="hash-label">SHA256</p>
+        <p class="hash">523810B388745EA7784BED81F656D19C4C51146EB91DF0E43CB1C2A115A834DC</p>
+      </div>
+
+      <div class="card">
+        <h2>Español</h2>
+        <p class="subtitle">Spanish</p>
+        <button>Download 64-bit</button>
+        <p class="hash-label">SHA256</p>
+        <p class="hash">E9FCF47EEC158A3308D5B102FEEFAB32038B045B008769E89F0E59CA80B92EF0</p>
+      </div>
+
+      <div class="card">
+        <h2>français</h2>
+        <p class="subtitle">French</p>
+        <button>Download 64-bit</button>
+        <p class="hash-label">SHA256</p>
+        <p class="hash">A110003CE98EBBB6BBEF515B134872224EF5E98CC1F9B55150EF868E27BEA7A</p>
+      </div>
+
+      <div class="card">
+        <h2>Português brasileiro</h2>
+        <p class="subtitle">Brazilian Portuguese</p>
+        <button>Download 64-bit</button>
+        <p class="hash-label">SHA256</p>
+        <p class="hash">C253DFA4A3AC856DC7AFD82FC6745D23A6353C7FBDA79E29553984A3E46B11F7</p>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
